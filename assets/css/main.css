@@ -926,6 +926,16 @@ section,
   scroll-margin-top: 90px;
   overflow: clip;
 }
+@media(max-width:576px){
+  section,
+.section {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding:0;
+  scroll-margin-top: 90px;
+  overflow: clip;
+}
+}
 
 @media (max-width: 1199px) {
 
@@ -940,7 +950,7 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   position: relative;
 }
 
@@ -9506,7 +9516,7 @@ background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, F
 
     /* Customization to match the image's shape and color */
     border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    /* border-bottom-right-radius: 30px; */
     box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
     /* For the orange logo/shape that may be part of the actual design, but here's a placeholder for the text color */
     padding-left: 1rem !important;
