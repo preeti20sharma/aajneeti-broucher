@@ -1852,7 +1852,7 @@
 
     <footer id="footer" class="footer position-relative">
 
-      <div class="container">
+      <!-- <div class="container">
         <div class="row gy-5">
 
           <div class="col-lg-4">
@@ -1918,9 +1918,9 @@
                     Cybersecurity</a></li>
               </ul>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-4">
+      <!-- <div class="col-lg-4">
             <div class="footer-contact">
               <h4>Get in Touch</h4>
               <div class="contact-item">
@@ -1962,7 +1962,7 @@
           </div>
 
         </div>
-      </div>
+      </div> -->
 
       <div class="footer-bottom">
         <div class="container">
@@ -1970,7 +1970,7 @@
             <div class="col-lg-6">
               <div class="copyright">
                 <p>© <span>Copyright</span> <strong
-                    class="px-1 sitename">MyWebsite</strong> <span>All
+                    class="px-1 sitename">Aajneeti</strong> <span>All
                     Rights
                     Reserved</span></p>
               </div>
@@ -1987,7 +1987,7 @@
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
                 Designed by <a
-                  href="https://bootstrapmade.com/">BootstrapMade</a>
+                  href="https://aajneeti.social">Aajneeti Connect Limited</a>
               </div>
             </div>
           </div>
@@ -2019,20 +2019,35 @@
 
     <!-- Initialize Swiper -->
     <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      pagination: {
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
       el: ".swiper-pagination",
       clickable: true,
-      },
-      autoplay: {
+    },
+    autoplay: {
       delay: 2500,
       disableOnInteraction: false,
+    },
+    loop: true,
+
+    breakpoints: {
+      0: {           // For mobile devices
+        slidesPerView: 1,
+        spaceBetween: 10,
       },
-      loop: true
-    });
-    </script>
+      768: {         // For tablets
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1024: {        // For desktops
+        slidesPerView: 3,
+        spaceBetween: 30,
+      }
+    }
+  });
+</script>
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
