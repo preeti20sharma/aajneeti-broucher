@@ -674,7 +674,9 @@ h6 {
 .footer .footer-bottom {
   margin-top: 50px;
   padding: 25px 0;
-  background-color: var(--accent-color);
+background: #333333;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8d0303, #0c0b0b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #880303, #0f0f0f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: var(--contrast-color);
 }
 
