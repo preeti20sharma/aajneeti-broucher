@@ -748,9 +748,9 @@ background: linear-gradient(to right, #880303, #0f0f0f); /* W3C, IE 10+/ Edge, F
 }
 
 @media (max-width: 768px) {
-  .footer {
+  /* .footer {
     padding: 60px 0 0;
-  }
+  } */
 
   .footer .footer-content {
     text-align: center;
@@ -6820,6 +6820,37 @@ section,
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 92%);
+   position: relative;
+  overflow: hidden;
+}
+
+.service-details .service-main-content .investment-types .types-grid .type-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url(../img/logo.png) center/170px no-repeat;
+  opacity: 0.099;
+  pointer-events: none;
+  z-index: 0;
+  animation: bg-move 8s linear infinite alternate;
+}
+
+@keyframes bg-move {
+  0% {
+    background-position: center;
+    background-size: 170px;
+    opacity: 0.099;
+  }
+  50% {
+    background-position: right;
+    background-size: 200px;
+    opacity: 0.13;
+  }
+  100% {
+    background-position: left;
+    background-size: 170px;
+    opacity: 0.099;
+  }
 }
 
 .service-details .service-main-content .investment-types .types-grid .type-card:hover {
@@ -9796,3 +9827,13 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3
 /* .contact-width{
   max-width: 800px !important;
 } */
+.map{
+  width:570px;
+  height: 455px;
+}
+@media(max-width:576px){
+  .map{
+  width:350px;
+  height: 250px;
+}
+}
