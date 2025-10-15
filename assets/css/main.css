@@ -652,7 +652,7 @@ h6 {
   width: 42px;
   height: 42px;
   background-color: color-mix(in srgb, var(--default-color), transparent 92%);
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1085,7 +1085,7 @@ section,
 }
 
 .hero .search-form .form-floating label {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-size: 14px;
 }
 
@@ -1128,7 +1128,7 @@ section,
 
 .hero .hero-stats .stat-item p {
   font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   margin: 0;
   font-weight: 500;
 }
@@ -1176,7 +1176,7 @@ section,
 
 .hero .hero-images .image-stack .main-image .property-tag .type {
   font-size: 12px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -1239,7 +1239,7 @@ section,
 .hero .hero-images .image-stack .floating-card .agent-info .agent-details p {
   margin: 0 0 8px;
   font-size: 12px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
 }
 
 .hero .hero-images .image-stack .floating-card .agent-info .agent-details .rating {
@@ -1256,7 +1256,7 @@ section,
 
 .hero .hero-images .image-stack .floating-card .agent-info .agent-details .rating span {
   margin-left: 6px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
 }
 
 @media (max-width: 992px) {
@@ -1441,7 +1441,7 @@ section,
 
 .home-about .image-section .main-image-wrapper .floating-card .card-content .text .label {
   font-size: 0.85rem;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-weight: 500;
 }
 
@@ -1819,7 +1819,7 @@ section,
   align-items: center;
   gap: 8px;
   font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
 }
 
 .featured-properties .highlight-card .content .top .loc i {
@@ -2732,7 +2732,7 @@ section,
 
 .featured-agents .agent-stats .stat-item .stat-label {
   font-size: 11px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.3px;
@@ -2750,7 +2750,7 @@ section,
   justify-content: center;
   gap: 6px;
   margin-bottom: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-size: 14px;
   font-weight: 500;
 }
@@ -3178,7 +3178,7 @@ section,
 .why-us .image-showcase .experience-card .card-content p {
   font-size: 0.9rem;
   margin: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
 }
 
 .why-us .content-wrapper {
@@ -3212,7 +3212,7 @@ section,
 .why-us .content-wrapper .lead-text {
   font-size: 0.95rem;
   line-height: 1.7;
-  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  color: rgb(22, 22, 22);
   margin-bottom: 2.5rem;
 }
 
@@ -3256,7 +3256,7 @@ section,
   font-size: 0.95rem;
   line-height: 1.6;
   margin: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
 }
 
 .why-us .content-wrapper .achievement-highlights {
@@ -3285,7 +3285,7 @@ section,
 
 .why-us .content-wrapper .achievement-highlights .highlight-item .highlight-label {
   font-size: 0.9rem;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-weight: 500;
 }
 
@@ -3523,7 +3523,7 @@ section,
 .call-to-action .cta-content p {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   margin-bottom: 2rem;
 }
 
@@ -3840,7 +3840,7 @@ section,
 }
 
 .about .intro-content p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   line-height: 1.7;
   margin-bottom: 2rem;
 }
@@ -4057,7 +4057,7 @@ section,
 
 .about .timeline-section .section-header p {
   font-size: 1.1rem;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -4152,7 +4152,7 @@ section,
 }
 
 .about .timeline-section .timeline .timeline-item .timeline-content p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   line-height: 1.6;
   margin: 0;
 }
@@ -4170,7 +4170,7 @@ section,
 
 .about .team-preview .team-description {
   font-size: 1.1rem;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   margin-bottom: 3rem;
   max-width: 600px;
   margin-left: auto;
@@ -4423,7 +4423,7 @@ section,
 }
 
 .properties .property-card .property-content .property-location {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-size: 14px;
   margin-bottom: 15px;
 }
@@ -4480,7 +4480,7 @@ section,
 }
 
 .properties .property-card .property-content .property-agent .agent-info .agent-contact small {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-size: 12px;
 }
 
@@ -4581,7 +4581,7 @@ section,
 }
 
 .properties .property-list-item .property-content .property-location {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-size: 14px;
 }
 
@@ -5093,7 +5093,7 @@ section,
 }
 
 .property-details .property-overview .property-address p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   margin: 0;
 }
 
@@ -5156,7 +5156,7 @@ section,
 .property-details .property-overview .agent-info .agent-details p {
   margin-bottom: 3px;
   font-size: 13px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
 }
 
 .property-details .property-overview .agent-info .agent-details p i {
@@ -5512,7 +5512,7 @@ section,
 }
 
 .agents .section-description {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   text-align: center;
   font-size: 1.1rem;
   margin-bottom: 40px;
@@ -5637,7 +5637,7 @@ section,
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-size: 14px;
 }
 
@@ -5831,7 +5831,7 @@ section,
 
 .agent-profile .agent-profile-card .profile-content .agent-header .quick-stats .quick-stat .stat-label {
   font-size: 0.9rem;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-weight: 500;
 }
 
@@ -6220,7 +6220,7 @@ section,
 }
 
 .agent-profile .content-sidebar .achievement-list .achievement-item .achievement-text span {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-size: 0.92rem;
 }
 
@@ -7569,11 +7569,11 @@ section,
 
 .blog-details .article-content .content-header .author-info .author-details .info .role {
   font-size: 0.9rem;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
 }
 
 .blog-details .article-content .content-header .author-info .post-meta {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-size: 0.95rem;
 }
 
@@ -7663,7 +7663,7 @@ section,
   /* padding: 1rem; */
   text-align: center;
   font-size: 0.9rem;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   background-color: color-mix(in srgb, var(--surface-color), transparent 50%);
 }
 
@@ -7769,7 +7769,7 @@ section,
 
 .blog-details .article-content .content blockquote cite {
   font-style: normal;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-size: 0.95rem;
   display: block;
 }
@@ -8150,7 +8150,7 @@ section,
 }
 
 .blog-comment-form .form-header p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-size: 0.9375rem;
 }
 
@@ -8514,7 +8514,7 @@ section,
 }
 
 .terms-of-service .tos-header p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   font-size: 1.1rem;
   max-width: 700px;
   margin: 0 auto;
@@ -8756,7 +8756,7 @@ section,
 }
 
 .terms-of-service .tos-contact .contact-box .contact-content p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#323b3b;
   margin-bottom: 15px;
 }
 
