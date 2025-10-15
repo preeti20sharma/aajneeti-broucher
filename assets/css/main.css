@@ -472,7 +472,7 @@ h6 {
   color: var(--default-color);
   background: var(--background-color);
   font-size: 14px;
-  padding: 80px 0 0;
+  /* padding: 80px 0 0; */
   position: relative;
   border-top: 1px solid color-mix(in srgb, var(--accent-color), transparent 85%);
 }
@@ -9793,3 +9793,6 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3
   display: flex;
   justify-content: center;
 }
+/* .contact-width{
+  max-width: 800px !important;
+} */
