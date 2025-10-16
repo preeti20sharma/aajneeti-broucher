@@ -9378,7 +9378,7 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 .hero {
   position: relative;
   height: 100vh;
-  background: url('assets/img/_Facebook Cover.jpg') center/cover no-repeat;
+  background: url('../img/_Facebook Cover.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: right;
