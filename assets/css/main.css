@@ -1,17 +1,8 @@
-/**
-* Template Name: TheProperty
-* Template URL: https://bootstrapmade.com/theproperty-bootstrap-real-estate-template/
-* Updated: Aug 05 2025 with Bootstrap v5.3.7
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 @charset "UTF-8";
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
+
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -962,6 +953,11 @@ section,
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+}
+@media(max-width:576px){
+  .section-title h2 {
+  font-size: 21px;
+}
 }
 
 .section-title h2:before {
