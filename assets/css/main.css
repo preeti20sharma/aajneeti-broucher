@@ -3217,7 +3217,7 @@ section,
 }
 
 .why-us .content-wrapper .benefits-grid {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-bottom: 3rem;
@@ -7078,7 +7078,28 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
   opacity: 0.095;
   pointer-events: none;
   z-index: 0;
+   animation: bg-move 8s linear infinite alternate;
 }
+
+
+@keyframes bg-move {
+  0% {
+    background-position: center;
+    background-size: 170px;
+    opacity: 0.099;
+  }
+  50% {
+    background-position: right;
+    background-size: 200px;
+    opacity: 0.13;
+  }
+  100% {
+    background-position: left;
+    background-size: 170px;
+    opacity: 0.099;
+  }
+}
+
 
 
 .service-details .service-main-content .testimonial-section .testimonial-grid .testimonial-card .quote-content {
@@ -7108,6 +7129,7 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
   display: flex;
   align-items: center;
   gap: 1rem;
+  justify-content: center;
 }
 
 .service-details .service-main-content .testimonial-section .testimonial-grid .testimonial-card .client-info .client-photo {
