@@ -9802,8 +9802,8 @@ background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, F
 }
 .accordion-item .accordion-item-desc {
     display: none;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 25px;
     font-weight: 400;
     color: #1d1c1c;
     border-top: 1px dashed #ddd;
